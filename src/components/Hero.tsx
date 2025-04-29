@@ -46,14 +46,21 @@ const Hero = () => {
 
         {/* Featured Comic Book Image */}
         <div className="mt-12 w-full max-w-4xl mx-auto relative">
-          <img 
-            src="https://ideogram.ai/assets/image/lossless/response/ejHuPw52SbmMQksPYzFtHA" 
-            alt="Comic Book Example" 
-            className="w-full rounded-lg border-2 border-cyberpunk-purple/50 shadow-lg shadow-cyberpunk-purple/20 animate-float"
-          />
-          <div className="absolute -bottom-4 -right-4 bg-cyberpunk-dark px-4 py-2 rounded-lg border border-cyberpunk-pink/50 text-cyberpunk-pink text-sm">
-            Created with Comic Book Maker GPT
-          </div>
+          <a 
+            href="https://chatgpt.com/g/g-68110eebf7f88191b60025b9c37cb2f2-comic-book-maker-gpt"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block cursor-pointer transition-transform hover:scale-[1.02]"
+          >
+            <img 
+              src="https://ideogram.ai/assets/image/lossless/response/ejHuPw52SbmMQksPYzFtHA" 
+              alt="Comic Book Example" 
+              className="w-full rounded-lg border-2 border-cyberpunk-purple/50 shadow-lg shadow-cyberpunk-purple/20 animate-float"
+            />
+            <div className="absolute -bottom-4 -right-4 bg-cyberpunk-dark px-4 py-2 rounded-lg border border-cyberpunk-pink/50 text-cyberpunk-pink text-sm">
+              Created with Comic Book Maker GPT
+            </div>
+          </a>
         </div>
 
         {/* 3D Comic Book Mockup */}
