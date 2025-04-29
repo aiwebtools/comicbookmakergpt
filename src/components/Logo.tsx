@@ -34,7 +34,14 @@ const Logo: React.FC<LogoProps> = ({ className, small = false }) => {
           "font-bold neon-text",
           small ? "text-sm" : "text-xl"
         )}>
-          Comic Book Maker GPT
+          <a 
+            href="https://chatgpt.com/g/g-68110eebf7f88191b60025b9c37cb2f2-comic-book-maker-gpt"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-cyberpunk-purple transition-colors"
+          >
+            Comic Book Maker GPT
+          </a>
         </h1>
         <p className={cn(
           "text-gray-400",

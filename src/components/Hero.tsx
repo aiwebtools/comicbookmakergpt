@@ -20,7 +20,14 @@ const Hero = () => {
         <div className="text-center mb-8 mt-12 sm:mt-16">
           <Logo className="mx-auto mb-8" />
           <h1 className="text-4xl md:text-6xl font-extrabold mb-4 neon-text">
-            MAKE EPIC COMIC BOOKS WITH AI FOR FREE!
+            <a 
+              href="https://chatgpt.com/g/g-68110eebf7f88191b60025b9c37cb2f2-comic-book-maker-gpt"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-cyberpunk-purple transition-colors"
+            >
+              MAKE EPIC COMIC BOOKS WITH AI FOR FREE!
+            </a>
           </h1>
           <p className="text-xl md:text-2xl max-w-3xl mx-auto text-gray-300">
             Turn your ideas into professional comic books with our AI assistant. Create stunning storylines, characters, and illustrations page by page.
@@ -58,7 +65,14 @@ const Hero = () => {
               className="w-full rounded-lg border-2 border-cyberpunk-purple/50 shadow-lg shadow-cyberpunk-purple/20 animate-float"
             />
             <div className="absolute -bottom-4 -right-4 bg-cyberpunk-dark px-4 py-2 rounded-lg border border-cyberpunk-pink/50 text-cyberpunk-pink text-sm">
-              Created with Comic Book Maker GPT
+              Created with <a 
+                href="https://chatgpt.com/g/g-68110eebf7f88191b60025b9c37cb2f2-comic-book-maker-gpt"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-white transition-colors"
+              >
+                Comic Book Maker GPT
+              </a>
             </div>
           </a>
         </div>
