@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -52,6 +53,15 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Cyberpunk theme colors
+				cyberpunk: {
+					'dark': '#0F0E17',
+					'darker': '#07060D',
+					'purple': '#8B5CF6',
+					'pink': '#E53170',
+					'orange': '#FF8906',
+					'blue': '#1EAEDB',
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -84,11 +94,47 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'glow': {
+					'0%, 100%': {
+						'filter': 'drop-shadow(0 0 0.75rem rgba(139, 92, 246, 0.5))'
+					},
+					'50%': {
+						'filter': 'drop-shadow(0 0 1.75rem rgba(139, 92, 246, 0.7))'
+					}
+				},
+				'float': {
+					'0%, 100%': {
+						'transform': 'translateY(0)'
+					},
+					'50%': {
+						'transform': 'translateY(-10px)'
+					}
+				},
+				'pulse-ring': {
+					'0%': {
+						'transform': 'scale(0.8)',
+						'opacity': '0'
+					},
+					'50%': {
+						'opacity': '0.5'
+					},
+					'100%': {
+						'transform': 'scale(1.5)',
+						'opacity': '0'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'glow': 'glow 3s ease-in-out infinite',
+				'float': 'float 6s ease-in-out infinite',
+				'pulse-ring': 'pulse-ring 3s cubic-bezier(0.215, 0.61, 0.355, 1) infinite'
+			},
+			backgroundImage: {
+				'cyberpunk-gradient': 'linear-gradient(45deg, rgba(139, 92, 246, 0.15) 0%, rgba(229, 49, 112, 0.15) 100%)',
+				'neon-glow': 'linear-gradient(90deg, rgba(139, 92, 246, 0.3) 0%, rgba(229, 49, 112, 0.3) 100%)',
 			}
 		}
 	},
