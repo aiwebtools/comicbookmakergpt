@@ -62,54 +62,6 @@ const Hero = () => {
             </div>
           </a>
         </div>
-
-        {/* 3D Comic Book Mockup */}
-        <div className="mt-16 relative w-full max-w-4xl mx-auto">
-          <div className="w-full aspect-video bg-cyberpunk-darker rounded-lg overflow-hidden relative cyberpunk-border animate-float">
-            <div className="absolute inset-0 bg-gradient-to-br from-cyberpunk-purple/20 to-cyberpunk-pink/20"></div>
-            <div className="absolute inset-0 flex items-center justify-center">
-              {/* Comic Book Pages Preview */}
-              <div className="grid grid-cols-2 gap-4 p-6 w-full max-w-3xl">
-                <div className="bg-cyberpunk-darker border border-cyberpunk-purple/30 rounded-md p-3 h-[200px] flex flex-col">
-                  <div className="text-cyberpunk-purple text-sm mb-2">Page 1 - Cover</div>
-                  <div className="flex-1 bg-gradient-to-br from-cyberpunk-dark to-cyberpunk-darker rounded flex items-center justify-center">
-                    <span className="text-cyberpunk-orange text-xs">Comic Cover Preview</span>
-                  </div>
-                </div>
-                <div className="bg-cyberpunk-darker border border-cyberpunk-pink/30 rounded-md p-3 h-[200px] flex flex-col">
-                  <div className="text-cyberpunk-pink text-sm mb-2">Page 2 - Story Start</div>
-                  <div className="flex-1 bg-gradient-to-br from-cyberpunk-dark to-cyberpunk-darker rounded grid grid-cols-2 gap-2 p-2">
-                    <div className="border border-white/10 rounded"></div>
-                    <div className="border border-white/10 rounded"></div>
-                    <div className="border border-white/10 rounded"></div>
-                    <div className="border border-white/10 rounded"></div>
-                  </div>
-                </div>
-                <div className="bg-cyberpunk-darker border border-cyberpunk-blue/30 rounded-md p-3 h-[200px] flex flex-col">
-                  <div className="text-cyberpunk-blue text-sm mb-2">Page 3 - Action Scene</div>
-                  <div className="flex-1 bg-gradient-to-br from-cyberpunk-dark to-cyberpunk-darker rounded grid grid-cols-3 grid-rows-2 gap-2 p-2">
-                    <div className="border border-white/10 rounded col-span-2"></div>
-                    <div className="border border-white/10 rounded row-span-2"></div>
-                    <div className="border border-white/10 rounded col-span-2"></div>
-                  </div>
-                </div>
-                <div className="bg-cyberpunk-darker border border-cyberpunk-orange/30 rounded-md p-3 h-[200px] flex flex-col">
-                  <div className="text-cyberpunk-orange text-sm mb-2">Page 4 - Dialogue</div>
-                  <div className="flex-1 bg-gradient-to-br from-cyberpunk-dark to-cyberpunk-darker rounded flex flex-col gap-2 p-2">
-                    <div className="flex-1 border border-white/10 rounded"></div>
-                    <div className="flex-1 border border-white/10 rounded"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* Comic Book Interface Elements */}
-            <div className="absolute top-0 left-0 right-0 h-10 bg-gradient-to-r from-cyberpunk-purple to-cyberpunk-pink opacity-50"></div>
-            <div className="absolute bottom-0 left-0 right-0 h-10 bg-gradient-to-r from-cyberpunk-pink to-cyberpunk-purple opacity-50"></div>
-          </div>
-          
-          {/* Reflection */}
-          <div className="w-full h-24 bg-gradient-to-b from-cyberpunk-purple/10 to-transparent mt-1 rounded-b-lg"></div>
-        </div>
       </div>
     </div>
   );
