@@ -44,6 +44,18 @@ const Hero = () => {
           </Button>
         </div>
 
+        {/* Featured Comic Book Image */}
+        <div className="mt-12 w-full max-w-4xl mx-auto relative">
+          <img 
+            src="https://ideogram.ai/assets/image/lossless/response/ejHuPw52SbmMQksPYzFtHA" 
+            alt="Comic Book Example" 
+            className="w-full rounded-lg border-2 border-cyberpunk-purple/50 shadow-lg shadow-cyberpunk-purple/20 animate-float"
+          />
+          <div className="absolute -bottom-4 -right-4 bg-cyberpunk-dark px-4 py-2 rounded-lg border border-cyberpunk-pink/50 text-cyberpunk-pink text-sm">
+            Created with Comic Book Maker GPT
+          </div>
+        </div>
+
         {/* 3D Comic Book Mockup */}
         <div className="mt-16 relative w-full max-w-4xl mx-auto">
           <div className="w-full aspect-video bg-cyberpunk-darker rounded-lg overflow-hidden relative cyberpunk-border animate-float">
