@@ -11,8 +11,9 @@ import Footer from "@/components/Footer";
 import CookieConsent from "@/components/CookieConsent";
 
 const Index = () => {
-  // Scroll to top on load
+  // Set document title and scroll to top on load
   useEffect(() => {
+    document.title = "Comic Book Maker GPT | Create Amazing Comics with AI";
     window.scrollTo(0, 0);
   }, []);
 
