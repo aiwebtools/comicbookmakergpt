@@ -19,6 +19,10 @@ const Disclaimer = () => {
         <Card className="bg-cyberpunk-darker/70 backdrop-blur-sm border-0 overflow-hidden cyberpunk-border">
           <CardContent className="p-8">
             <div className="space-y-6 text-sm md:text-base text-gray-300">
+              <p className="text-center bg-yellow-500/20 border border-yellow-500/30 rounded-lg p-3 text-yellow-200">
+                <strong>For Informational, Educational, and Research Purposes Only</strong> - This tool is designed to assist in creative content generation and should be used responsibly.
+              </p>
+              
               <p>
                 <strong className="text-white">General Use:</strong> Comic Book Maker GPT is an AI tool designed to assist users in creating comic books. It is provided "as is" without warranties of any kind, either expressed or implied.
               </p>
@@ -52,7 +56,7 @@ const Disclaimer = () => {
               </p>
               
               <p>
-                <strong className="text-white">Terms of Service:</strong> Use of Comic Book Maker GPT is subject to OpenAI's Terms of Service and AI WEB TOOLS LLC's <a href="https://aiwebtools.ai/terms-of-services" target="_blank" rel="noopener noreferrer" className="text-cyberpunk-purple hover:underline">Terms of Service</a>.
+                <strong className="text-white">Terms of Service:</strong> Use of Comic Book Maker GPT is subject to OpenAI's Terms of Service and AI WEB TOOLS LLC's <a href="https://aiwebtools.lovable.app/disclaimers" target="_blank" rel="noopener noreferrer" className="text-cyberpunk-purple hover:underline">Terms of Service</a>.
               </p>
               
               <p>
