@@ -13,13 +13,13 @@ import CookieConsent from "@/components/CookieConsent";
 const Index = () => {
   // Set document title and scroll to top on load
   useEffect(() => {
-    document.title = "Comic Book Maker GPT | Free AI Tools by AI WEB TOOLS | Create Amazing Comics with AI";
+    document.title = "Comic Book Maker GPT - Create Comics with AI | Free Tool by AI WEB TOOLS";
     window.scrollTo(0, 0);
 
     // Add additional SEO meta tags dynamically
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
-      metaDescription.setAttribute('content', 'Create professional comic books for free with Comic Book Maker GPT by AI WEB TOOLS. Best free AI tools for comic creation, storytelling, and character development. Turn your ideas into stunning comic book pages with AI assistance.');
+      metaDescription.setAttribute('content', 'Create professional comic books instantly with Comic Book Maker GPT. Free AI-powered tool for comic creation, storytelling, character development & illustrations. Turn ideas into stunning comics - no artistic skills needed!');
     }
 
     // Add structured data for breadcrumbs
