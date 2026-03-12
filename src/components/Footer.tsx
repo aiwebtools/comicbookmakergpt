@@ -106,7 +106,7 @@ const Footer = () => {
         
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-gray-400 text-sm text-center md:text-left">
-            &copy; {currentYear} <a href="https://www.aiwebtools.ai" target="_blank" rel="noopener noreferrer" className="hover:text-cyberpunk-purple">AI WEB TOOLS LLC</a> All rights reserved.
+            &copy; {currentYear} <a href="https://aiwebtools.lovable.app/?via=aiwebtools" target="_blank" rel="noopener noreferrer" className="hover:text-cyberpunk-purple">AI WEB TOOLS LLC</a> All rights reserved.
           </p>
           
           <div className="flex gap-4">
