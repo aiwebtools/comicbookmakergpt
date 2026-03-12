@@ -47,7 +47,7 @@ const Logo: React.FC<LogoProps> = ({ className, small = false }) => {
           "text-gray-400",
           small ? "text-xs" : "text-sm"
         )}>
-          Presented by <a href="https://www.aiwebtools.ai" className="hover:text-cyberpunk-purple transition-colors">AiWebTools.Ai</a>
+          Presented by <a href="https://aiwebtools.lovable.app/?via=aiwebtools" target="_blank" rel="noopener noreferrer" className="hover:text-cyberpunk-purple transition-colors">AiWebTools.Ai</a>
         </p>
       </div>
     </div>

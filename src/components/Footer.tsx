@@ -106,7 +106,7 @@ const Footer = () => {
         
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-gray-400 text-sm text-center md:text-left">
-            &copy; {currentYear} <a href="https://www.aiwebtools.ai" target="_blank" rel="noopener noreferrer" className="hover:text-cyberpunk-purple">AI WEB TOOLS LLC</a> All rights reserved.
+            &copy; {currentYear} <a href="https://aiwebtools.lovable.app/?via=aiwebtools" target="_blank" rel="noopener noreferrer" className="hover:text-cyberpunk-purple">AI WEB TOOLS LLC</a> All rights reserved.
           </p>
           
           <div className="flex gap-4">
@@ -125,7 +125,7 @@ const Footer = () => {
             </Button>
             
             <Button asChild variant="ghost" size="sm" className="text-gray-400 hover:text-cyberpunk-purple hover:bg-white/5">
-              <a href="https://www.aiwebtools.ai" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+              <a href="https://aiwebtools.lovable.app/?via=aiwebtools" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                 <ExternalLink className="w-4 h-4" />
                 More AI Tools
               </a>
@@ -135,16 +135,17 @@ const Footer = () => {
       </div>
       
       {/* Floating "More AI Tools" Button */}
-      <div className="fixed bottom-6 right-6 z-40">
-        <Button asChild className="rounded-full px-6 py-3 button-glow text-white">
+      <div className="fixed bottom-6 right-4 sm:right-6 z-40">
+        <Button asChild className="rounded-full px-4 sm:px-6 py-2 sm:py-3 button-glow text-white text-sm sm:text-base">
           <a 
-            href="https://www.aiwebtools.ai" 
+            href="https://aiwebtools.lovable.app/?via=aiwebtools" 
             target="_blank" 
             rel="noopener noreferrer"
             className="flex items-center gap-2"
           >
             <ExternalLink className="w-4 h-4" />
-            More AI Tools
+            <span className="hidden xs:inline">More AI Tools</span>
+            <span className="xs:hidden">AI Tools</span>
           </a>
         </Button>
       </div>

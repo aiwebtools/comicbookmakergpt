@@ -33,13 +33,13 @@ const Index = () => {
           "@type": "ListItem",
           "position": 1,
           "name": "AI WEB TOOLS",
-          "item": "https://www.aiwebtools.ai"
+          "item": "https://aiwebtools.lovable.app/?via=aiwebtools"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Free AI Tools",
-          "item": "https://www.aiwebtools.ai/tools"
+          "item": "https://aiwebtools.lovable.app/?via=aiwebtools"
         },
         {
           "@type": "ListItem",
