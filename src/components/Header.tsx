@@ -49,7 +49,7 @@ const Header: React.FC = () => {
             </Button>
             
             <Button asChild variant="ghost" className="text-white hover:text-cyberpunk-purple hover:bg-white/5">
-              <a href="https://www.aiwebtools.ai" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+              <a href="https://aiwebtools.lovable.app/?via=aiwebtools" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                 <ExternalLink className="w-4 h-4" />
                 More AI Tools
               </a>
