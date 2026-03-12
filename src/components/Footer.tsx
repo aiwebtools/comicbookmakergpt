@@ -135,8 +135,8 @@ const Footer = () => {
       </div>
       
       {/* Floating "More AI Tools" Button */}
-      <div className="fixed bottom-6 right-6 z-40">
-        <Button asChild className="rounded-full px-6 py-3 button-glow text-white">
+      <div className="fixed bottom-6 right-4 sm:right-6 z-40">
+        <Button asChild className="rounded-full px-4 sm:px-6 py-2 sm:py-3 button-glow text-white text-sm sm:text-base">
           <a 
             href="https://aiwebtools.lovable.app/?via=aiwebtools" 
             target="_blank" 
@@ -144,7 +144,8 @@ const Footer = () => {
             className="flex items-center gap-2"
           >
             <ExternalLink className="w-4 h-4" />
-            More AI Tools
+            <span className="hidden xs:inline">More AI Tools</span>
+            <span className="xs:hidden">AI Tools</span>
           </a>
         </Button>
       </div>
