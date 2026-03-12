@@ -138,7 +138,7 @@ const Footer = () => {
       <div className="fixed bottom-6 right-6 z-40">
         <Button asChild className="rounded-full px-6 py-3 button-glow text-white">
           <a 
-            href="https://www.aiwebtools.ai" 
+            href="https://aiwebtools.lovable.app/?via=aiwebtools" 
             target="_blank" 
             rel="noopener noreferrer"
             className="flex items-center gap-2"
