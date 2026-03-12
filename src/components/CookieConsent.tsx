@@ -38,7 +38,7 @@ const CookieConsent = () => {
         <div className="flex-1">
           <h3 className="text-lg font-medium text-white mb-2">I Agree To Terms and Conditions</h3>
           <p className="text-gray-300 text-sm">
-            This website uses cookies to ensure you get the best experience. By using Comic Book Maker GPT, you agree to our <a href="https://aiwebtools.ai/terms-of-services" className="text-cyberpunk-purple hover:underline">Terms of Service</a> and <a href="https://openai.com/policies/privacy-policy/" className="text-cyberpunk-purple hover:underline">Privacy Policy</a>.
+            This website uses cookies to ensure you get the best experience. By using Comic Book Maker GPT, you agree to our <a href="https://aiwebtools.lovable.app/disclaimers" target="_blank" rel="noopener noreferrer" className="text-cyberpunk-purple hover:underline">Terms of Service</a> and <a href="https://openai.com/policies/privacy-policy/" target="_blank" rel="noopener noreferrer" className="text-cyberpunk-purple hover:underline">Privacy Policy</a>.
           </p>
         </div>
         <div className="flex gap-3">
